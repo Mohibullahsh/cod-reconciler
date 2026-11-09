@@ -1,0 +1,11 @@
+status,tracking_number,order,order_date,receipt_id,order_cod,collected,shipping,gst,platform_fee,net_paid,age_days,shopify_status_stale,notes
+COD_MISMATCH,DEMO100004,#DEMO1004,2026-09-01,DEMO-CPR-004,3990.00,3490.00,125.00,20.00,159.60,3185.40,,,Courier collected -500.00 against the order value
+COD_MISMATCH,DEMO100022,#DEMO1022,2026-09-13,DEMO-CPR-006,5990.00,5790.00,137.50,22.00,239.60,5390.90,,yes,Courier collected -200.00 against the order value
+DUPLICATE_PAYOUT,DEMO100010,#DEMO1010,2026-09-17,DEMO-CPR-007,2490.00,2490.00,137.50,22.00,99.60,2230.90,,yes,Already settled on DEMO-CPR-003
+FEE_MISMATCH,DEMO100034,#DEMO1034,2026-09-04,DEMO-CPR-006,2990.00,2990.00,165.00,20.00,119.60,2685.40,,yes,"shipping charged 165.00, rate card 125.00"
+FEE_MISMATCH,DEMO100051,#DEMO1051,2026-09-17,DEMO-CPR-006,4990.00,4990.00,125.00,20.00,224.60,4620.40,,,"platform fee charged 224.60, rate card 199.60"
+NET_MISMATCH,DEMO100067,#DEMO1067,2026-09-01,DEMO-CPR-002,4990.00,4990.00,137.50,22.00,199.60,4480.90,,yes,Net paid is -150.00 against collected less deductions
+OVERDUE,DEMO100017,#DEMO1017,2026-09-16,,5490.00,,,,,,14,,No payout after 14 days
+OVERDUE,DEMO100077,#DEMO1077,2026-09-09,,2990.00,,,,,,21,,No payout after 21 days
+OVERDUE,DEMO100109,#DEMO1109,2026-09-06,,6990.00,,,,,,24,,No payout after 24 days
+UNKNOWN_PAYOUT,DEMO999001,,,DEMO-CPR-007,,3490.00,137.50,22.00,139.60,3190.90,,,"Paid by courier, no matching order"
